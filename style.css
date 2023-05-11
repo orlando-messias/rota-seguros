@@ -1,0 +1,723 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #1a4385;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+
+.logo {
+  width: 280px;
+  padding-bottom: 15px;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+/* icon phone navbar */
+.phone {
+  display: block;
+}
+
+.fa-phone-alt {
+  /* display: block; */
+  margin: 0 30px;
+}
+
+#carouselSite .carousel-caption {
+  top: 30%;
+}
+
+#carouselSite .carousel-inner {
+  padding: 0;
+}
+
+#carouselSite .carousel-control-prev-icon {
+  color: rgb(255, 255, 255);
+  width: 50px;
+}
+
+#carouselSite .carousel-caption h1 {
+  font-size: 50px;
+  font-weight: 900;
+  position:relative;
+  top: -20px;
+}
+
+#carouselSite .carousel-caption p {
+  font-weight: 900;
+  font-size: 18px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  padding-top: 0;
+  position: relative;
+  top: -20px;
+}
+
+#carouselSite .carousel-main-btn {
+  background-color: #1a4385;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: 0.3s;
+  position: relative;
+}
+
+#carouselSite .carousel-main-btn:hover {
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  border-color: #1a4385;
+}
+
+#carouselSite .carousel-indicators {
+  height: 10px;
+}
+
+#carouselSite .carousel-indicators .active {
+  background-color:blue;
+  height: 8px;
+}
+
+/* icons setas carousel */
+.fa-chevron-circle-left, .fa-chevron-circle-right {
+  font-size: 100px;
+}
+
+/* icon heart */
+.fa-heartbeat {
+  color: red;
+  font-size: 5rem;
+  padding: 0 5px;
+}
+
+/* icon case */
+.fa-medkit {
+  color: rgb(236, 236, 1);
+  font-size: 5rem;
+  padding: 0 5px;
+}
+
+/* icon funnel dollar */
+.fa-funnel-dollar {
+  font-size: 5rem;
+  color: gray;
+}
+
+.funnel-dollar-color {
+  color: rgb(158, 158, 231);
+}
+
+.fa-tooth, .fa-user-check {
+  font-size: 5rem;
+  color: rgb(158, 158, 231);
+}
+
+.card-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: 2px solid blue;
+  padding: 5px 0;
+  width: 95%;
+  margin: auto;
+}
+
+.card-body {
+  min-height: 250px;
+}
+
+.card-text {
+  text-align: justify;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.card-text p {
+  margin-bottom: 0;
+}
+
+.card-footer {
+  text-align: center;
+}
+
+.btn-card-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.jumbotron {
+  padding-top: 30px;
+}
+
+/* icon video */
+.fa-video {
+  font-size: 4rem;
+  color: tomato;
+}
+
+/* social icons */
+.fab {
+  font-size: 20px;
+  text-align: left;
+}
+
+.container-equipe {
+  width: 100vw;
+  padding: 10px 40px;
+  background-color: #F9F9F9;
+}
+
+.legenda-equipe {
+  background-color: #F9F9F9;
+}
+
+.img-equipe, .img-unidade-div, .img-call {
+  border: 6px solid #ffffff;
+  background-color: #ffffff;;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+
+figcaption.legenda-equipe {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 5px;
+  position: relative;
+  top: -40px;
+  left: 20px;
+  background-color: rgba(0,0,0,.3);
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;
+  width: 90%;
+}
+
+.main-title {
+  color: #444;
+  margin: 10px 0;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.hr-main-title {
+  border-top: 2px solid #333;
+  width: 20%;
+}
+
+.hr-footer {
+  border-top: 1px solid rgb(199, 199, 199);
+}
+
+#data-area {
+  padding-top: 6px;
+  padding-bottom: 1px;
+}
+
+#data-area .circle-box div {
+  padding: 25px 10px;
+}
+
+#data-area p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#news-area {
+  text-align: center;
+  background-color: #F9F9F9;
+  padding: 20px 0;
+}
+
+#news-area p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+#email-input {
+  border-radius: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid #1a4385;
+  display: inline;
+  box-sizing: border-box;
+  width: 50%;
+  height: 40px;
+  padding-left: 20px;
+}
+
+#news-btn {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid #1a4385;
+  background-color: #1a4385;
+  text-transform: uppercase;
+  color: #FFF;
+  height: 40px;
+  padding: 0 30px;
+  margin-left: -130px;
+  position: absolute;
+  transition: 0.5s;
+}
+
+#news-btn:hover {
+  background-color: white;
+  color: #1a4385;
+}
+
+#call-area {
+  background-color: #1a4385;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  padding: 40px 0;
+  font-size: 20px;
+  margin: 50px 0;
+}
+
+#call-area .row {
+  display: block;
+  text-align: center;
+}
+
+#call-area p {
+  display: inline;
+  height: 60px;
+  line-height: 60px;
+}
+
+#call-area .call-btn {
+  background-color: #5c8fe0;
+  color: white;
+  font-size: 20px;
+  margin-left: 30px;
+  border-radius: 25px;
+  padding: 3px 30px;
+  border: none;
+}
+
+#call-area .call-btn:hover {
+  background-color: #afc8f1;
+}
+
+.whatsapp-btn {
+  background-color: rgb(120, 168, 23);
+  color: white;
+  font-size: 20px;
+  margin-left: 30px;
+  border-radius: 25px;
+  padding: 3px 20px;
+  border: none;
+}
+
+.whatsapp-btn:hover {
+  background-color: rgb(168, 204, 97);
+}
+
+.address p {
+  padding:0px;
+  margin: 0px;
+  line-height: 25px;
+}
+
+.whatsapp-footer {
+  position: fixed;
+  right: 10px;
+  bottom: 0;
+  width: 150px;
+  text-align: center;
+}
+
+.whatsapp-footer img {
+  width: 160px;
+}
+
+blockquote p {
+  font-style: italic;
+}
+
+
+/* TABELA PREÇOS */
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: space-evenly;
+}
+
+.tabela-precos-paragrafo {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.jumbotron {
+  padding-bottom: 15px;
+}
+
+.jumbotron-tab-precos {
+  margin-top: 100px;
+  background-color:rgb(12, 12, 105);
+  border-top: 1px solid black;
+  border-bottom: 3px solid black;
+}
+
+.jumbotron-tab-precos h2 {
+  color: white;
+}
+
+#container-thumb-amil {
+  background: url('images/amil-thumb.jpg') no-repeat;
+  background-position: 0 50%;
+  background-size: 410px;
+  width: 200px;
+  height: 150px;
+  border: 6px solid #ffffff;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+#container-thumb-amil:hover {
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+
+#container-thumb-bradesco {
+  background: url('images/bradesco-saude-thumb.png') no-repeat;
+  background-position: 90% 0;
+  background-size: 410px;
+  width: 200px;
+  height: 150px;
+  border: 6px solid white;
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+#container-thumb-bradesco:hover {
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+
+#container-thumb-sulamerica {
+  background: url('images/sulamerica-saude-thumb.png') no-repeat;
+  background-position: 100% 0;
+  background-size: 410px;
+  width: 200px;
+  height: 150px;
+  border: 6px solid white;
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+#container-thumb-sulamerica:hover {
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+
+#container-thumb-vitallis {
+  background: url('images/vitallis-thumb.jpg') no-repeat;
+  background-position: 0% 50%;
+  background-size: 410px;
+  width: 200px;
+  height: 150px;
+  border: 6px solid white;
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+#container-thumb-vitallis:hover {
+  background-position: 50% 50%;
+  background-size: 120%;
+}
+
+#container-thumb-unimed {
+  background: url('images/unimed-thumb.png') no-repeat;
+  background-position: 0% 50%;
+  background-size: 410px;
+  width: 200px;
+  height: 150px;
+  border: 6px solid white;
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+#container-thumb-unimed:hover {
+  background-position: 50% 50%;
+  background-size: 120%;
+}
+
+#container-thumb-goldencross {
+  background: url('images/golden-cross-thumb.png') no-repeat;
+  background-position: 0% 50%;
+  background-size: 410px;
+  width: 200px;
+  height: 150px;
+  border: 6px solid white;
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+#container-thumb-goldencross:hover {
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+
+#container-thumb-porto-seguro {
+  background: url('images/porto-seguro-thumb.png') no-repeat;
+  background-position: 70% 70%;
+  background-size: 450px;
+  width: 200px;
+  height: 150px;
+  border: 6px solid white;
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+#container-thumb-porto-seguro:hover {
+  background-position: 50% 50%;
+  background-size: 150%;
+}
+
+#form-orcamento input, #form-orcamento textarea {
+  margin-bottom: 10px;
+}
+
+#form-orcamento .enviar-btn {
+  border-radius: 20px;
+  background-color: #1a4385;
+  text-transform: uppercase;
+  color: #FFF;
+  height: 40px;
+  padding: 0 30px;
+  transition: 0.5s;
+  margin-top: 10px;
+}
+
+#form-orcamento .enviar-btn:hover {
+  background-color: #afc8f1;
+}
+
+.img-call {
+  margin-bottom: 20px;
+}
+
+
+
+/* ---------- RESPONSIVE MEDIA QUERIES ---------- */
+
+@media(max-width: 1032px) {
+  #carouselSite .carousel-main-btn {
+    position: relative;
+    top: -30px;
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  #carouselSite .carousel-caption h1 {
+    font-size: 40px;
+  }
+
+  .card-body {
+    min-height: 450px;
+  }
+
+  #data-area .circle-box div {
+    padding: 0px;
+  }
+
+  #data-area p {
+    font-size: 16px;
+  }
+
+  #email-input {
+    width: 70%;
+  }
+
+  #call-area .container {
+    padding: 0px;
+    text-transform: none;
+  }
+}
+
+
+@media(max-width: 854px) {
+  #carouselSite .carousel-inner, #carouselSite .carousel-item {
+    height: auto;
+  }
+
+  #carouselSite .carousel-caption h1{
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+
+  #carouselSite .carousel-caption p {
+    font-size: 12px;
+  }
+
+  /* icons setas carousel */
+  .fa-chevron-circle-left, .fa-chevron-circle-right {
+    font-size: 50px;
+  }
+
+  .main-title {
+    margin: 0px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .card-text {
+    text-align: left;
+  }
+
+  #call-area {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+
+  #call-area .call-btn, .whatsapp-btn {
+    font-size: 14px;
+  }
+
+}
+
+@media(max-width: 768px) {
+  .card-title {
+    font-size: 18px;
+  }
+
+  .card-text, .tab-pane p {
+    font-size: 14px;
+  }
+
+  /* icon video */
+  .fa-video {
+    font-size: 3rem;
+  }
+
+  .nav-pills .nav-link {
+    font-size: 14px;
+  }
+
+  .equipe-title h3{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .card-body {
+    min-height: 300px;
+  }
+
+  #news-area p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #email-input {
+    width: 80%;
+  }
+
+  #carouselSite .carousel-caption p {
+    display: none;
+  }
+
+  #carouselSite .carousel-main-btn {
+    top: 10px;
+    padding: 8px 13px;
+  }
+
+  .text-center h1 {
+    font-size: 35px;
+  }
+}
+
+@media(max-width: 570px) {
+  #carouselSite .carousel-caption h1 {
+    font-size: 16px;
+    position: relative;
+    top: -20px;
+    margin-bottom: 0px;
+  }
+
+  #carouselSite .carousel-main-btn {
+    position: relative;
+    top: -10px;
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+
+  #carouselSite .carousel-indicators .active {
+    height: 5px;
+  }
+
+  .text-center h1 {
+    font-size: 30px;
+  }
+
+  .card-body {
+    min-height: 250px;
+  }
+
+  /* icons heart and case */
+  .fa-heartbeat, .fa-medkit {
+    font-size: 3rem;
+  }
+
+  .whatsapp-footer img {
+    width: 130px;
+    right: 5px;
+  }
+
+  .address {
+    margin-bottom: 20px;
+  }
+
+  #call-area .call-btn, #call-area .whatsapp-btn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .tab-pane img {
+    margin-bottom: 15px;
+  }
+
+  .card-text {
+    font-size: 16px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+}
+
+
+  

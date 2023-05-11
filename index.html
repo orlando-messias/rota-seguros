@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  
+  <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/c79037171d.js" crossorigin="anonymous"></script>
+  
+    <title>Rota Seguros | O Melhor em Plano de Saúde de Divinópolis está Aqui!</title>
+  
+  </head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+      <a class="navbar-brand" href="index.html">
+        <img class="logo" src="images/logo2.png" alt="Logo Básica Rota Seguros">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite"
+        aria-controls="navbarSite" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse ml-3 mt-2" id="navbarSite">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="home">Home</a>
+          </li>
+          <li class="nav-item dropdown ml-2">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="planos-saude" href="#">
+              Planos de Saúde
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Empresariais</a>
+              <a class="dropdown-item" href="#">Individuais</a>
+              <a class="dropdown-item" href="#">Odontológicos</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown ml-2">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="seguros" href="#">
+              Seguros
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Automóveis</a>
+              <a class="dropdown-item" href="#">Residencial</a>
+              <a class="dropdown-item" href="#">Vida</a>
+              <a class="dropdown-item" href="#">Outros</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown ml-2">
+            <a class="nav-link" id="fale-conosco" href="#">Fale Conosco</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="nav-item mr-2">
+            <a class="nav-link" href="#"><i class="fas fa-phone-alt fa-2x"></i><span class="phone">0800 595
+                0600</span></a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- CAROUSEL -->
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselSite" data-slide-to="1"></li>
+        <li data-target="#carouselSite" data-slide-to="2"></li>
+        <li data-target="#carouselSite" data-slide-to="3"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/banner-presentation.jpg" class="img-fluid d-block" alt="Banner Apresentação">
+          <div class="carousel-caption d-md-block text-dark">
+            <h1>Precisa de um Plano de Saúde?</h1>
+            <p class="load">O MELHOR PLANO DE SAÚDE DA CIDADE E DA VIDA INTEIRA</p>
+            <a href="tabela-precos.html" class="carousel-main-btn"><i class="fas fa-file-invoice-dollar"></i> Tabela de Preços</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner-plano-individual-coletivo-por-adesao.png" class="img-fluid d-block" alt="Banner Individual Coletivo">
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner-plano-empresarial.png" class="img-fluid d-block" alt="Banner Plano Empresarial">
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner-plano-odontologico.png" class="img-fluid d-block" alt="Banner Plano Odontológico">
+        </div>
+      </div>
+
+      <a href="#carouselSite" class="carousel-control-prev" role="button" data-slide="prev">
+        <span class="carousel-control"><i class="fas fa-chevron-circle-left"></i></span>
+        <span class="visually-hidden sr-only">Prev</span>
+      </a>
+      <a href="#carouselSite" class="carousel-control-next" role="button" data-slide="next">
+        <span class="carousel-control"><i class="fas fa-chevron-circle-right"></i></span>
+        <span class="visually-hidden sr-only">Next</span>
+      </a>
+    </div>
+
+
+    <!-- SLOGAN -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center my-5">
+          <i class="fas fa-heartbeat"></i> <i class="fas fa-medkit"></i>
+          <h1 class="display-5">Pensou em Planos de Saúde?</h1>
+          <h1 class="display-5">Pensou Rota Seguros <img src="images/logo-mini.png" alt="Logo Rota Seguros"></p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- EQUIPE -->
+    <div class="equipe mb-5">
+      <div class="container-equipe">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="main-title">Nossa Equipe</h2>
+            <hr class="hr-main-title">
+          </div>
+          <div class="col-md-7 mt-3">
+            <figure>
+              <img src="images/equipe-rota-seguros.jpg" alt="Equipe Rota Seguros" class="img-fluid img-equipe">
+              <figcaption class="legenda-equipe">EQUIPE DA SEDE | BELO HORIZONTE</figcaption>
+            </figure>
+          </div>
+          <div class="col-md-5 mt-3">
+            <h3 class="equipe-title">O melhor em <strong>Planos de Saúde</strong> e <strong>Seguros </strong>está aqui!
+            </h3>
+            <p>
+              Por meio de uma equipe altamente especializada, personalizamos o atendimento e proporcionamos
+              tranquilidade e segurança aos nossos clientes na escolha do plano de saúde, odontológico e seguros em
+              geral.
+            </p>
+            <p>
+              A eficiência, o comprometimento com a qualidade e a seriedade na prestação dos serviços faz da Rota
+              Seguros
+              uma referência no mercado de seguros, tendo como parceiras as principais operadoras e seguradoras do país.
+            </p>
+            <p>Nossas Unidades:</p>
+            <div class="btn-group-horizontal" role="group">
+              <a href="#" class="btn btn-outline-primary mb-1"><i class="fas fa-building"></i> Belo Horizonte</a>
+              <a href="#" class="btn btn-outline-info mb-1"><i class="fas fa-building"></i> Divinópolis</a>
+              <a href="#" class="btn btn-outline-success mb-1"><i class="fas fa-building"></i> Uberlândia</a>
+              <a href="#" class="btn btn-outline-danger mb-1"><i class="fas fa-building"></i> Vitória</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- SERVIÇOS -->
+    <div class="services mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="main-title">Nossas Especialidades</h2>
+            <hr class="hr-main-title">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="team-area">
+      <div class="container">
+        <div class="row justify-content-sm-center">
+          <div class="col-sm-6 col-md-4">
+            <div class="card mb-5">
+              <div class="card-img-top">
+                <img src="images/card-individual.jpg" class="card-img-top" alt="Card Plano Individual">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Plano de Saúde Individual</h5>
+                <p class="card-text">
+                  Planos de Saúde para categorias profissionais em Divinópolis com condições diferenciadas.
+                </p>
+                <p class="card-text">
+                  Confira nossa <strong><a href="tabela-precos.html">TABELA DE PREÇOS</a></strong>.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary btn-card-footer">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4">
+            <div class="card mb-5">
+              <img src="images/card-empresarial.jpg" class="card-img-top" alt="Card Plano Empresarial">
+              <div class="card-body">
+                <h5 class="card-title">Plano de Saúde Empresarial</h5>
+                <p class="card-text">
+                  Comercializamos os principais Planos de Saúde Empresariais, sejam pequenas ou grandes empresas. Faça o
+                  comparativo de preços,
+                  cobertura e rede credenciada dos principais Planos de Saúde. Nós temos a assistência médica ideal para
+                  sua
+                  empresa!
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary btn-card-footer">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4">
+            <div class="card mb-5">
+              <img src="images/card-odontologico.jpg" class="card-img-top" alt="Card Plano Odontológico">
+              <div class="card-body">
+                <h5 class="card-title">Plano Odontológico</h5>
+                <p class="card-text">
+                  Temos excelentes condições de contratação. Planos odontológicos individuais, familiares e
+                  empresariais:
+                  <strong>Amil Dental, Bradesco Dental, MetLife, Odontoprev, Porto Seguro</strong>.
+
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary btn-card-footer">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- INFO DA EMPRESA -->
+    <div id="data-area">
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 circle-box">
+            <div id="circleA">
+              <p>Contratos Ativos</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 circle-box">
+            <div id="circleB">
+              <p>Nível de Satisfação</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 circle-box">
+            <div id="circleC">
+              <p>Colaboradores</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 circle-box">
+            <div id="circleD">
+              <p>Cafezinhos</p>
+            </div>
+          </div>
+        </div>
+        <p><img src="images/loading.png" alt="loading"></p>
+      </div>
+    </div>
+
+
+    <!-- JUMBOTRON -->
+    <div class="jumbotron jumbo mt-5">
+
+      <div class="row">
+        <div class="col-12 text-center">
+          <i class="fas fa-funnel-dollar"></i>
+          <h1 class="display-4">Escolha o melhor plano</h1>
+          <p class="lead">
+            Você pode optar pelo plano que lhe convier e aquele que couber no seu bolso.
+          </p>
+          <hr class="my-4">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <ul class="nav nav-pills mb-4 justify-content-center" id="pills-nav" role="tablist">
+            <li class="nav-item">
+              <a href="#nav-item-01" class="nav-link active" id="nav-pills-01" data-toggle="pill">Vídeo
+                Introdutório</a>
+            </li>
+            <li class="nav-item">
+              <a href="#nav-item-02" class="nav-link" id="nav-pills-02" data-toggle="pill">Amil Saúde</a>
+            </li>
+            <li class="nav-item">
+              <a href="#nav-item-03" class="nav-link" id="nav-pills-03" data-toggle="pill">Bradesco Saúde</a>
+            </li>
+            <li class="nav-item">
+              <a href="#nav-item-04" class="nav-link" id="nav-pills-04" data-toggle="pill">Sulamérica Saúde</a>
+            </li>
+          </ul>
+
+          <div class="tab-content" id="nav-pills-content">
+            <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe src="https://www.youtube.com/embed/csChpT9AYWE" frameborder="0"
+                        class="embed-responsive-item"></iframe>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <p><i class="fas fa-video"></i></p>
+                    <p>Em 2001 nascia a <strong>Rota Seguros</strong>, uma corretora especializada em benefícios e com
+                      foco na
+                      satisfação do cliente.
+                      Somos uma empresa 100% mineira com sede em Belo Horizonte e Uberlândia. Atuamos também em todo o
+                      estado de Minas Gerais por intermédio de empresas parceiras.</p>
+                      <p>Assista ao vídeo e nos conte o que você achou a respeito da política de nossos planos!!!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-item-02" role="tabpanel">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <img src="images/amil.png" class="img-fluid" alt="Logo Amil">
+                  </div>
+                  <div class="col-sm-6">
+                    <p>
+                      A Amil foi criada em 1978 e, desde o início, assumiu o compromisso de oferecer um sistema de saúde
+                      da
+                      mais alta qualidade, que pudesse atender a uma parcela significativa da população brasileira. <br>
+                      Planos com atendimento nacional, opção de contratação com e sem coparticipação, aceitação
+                      de análise de redução de carências para cliente advindo de outro Plano de Saúde* e condição sem
+                      carência para empresas com acima de 30 vidas.
+                    </p>
+                    <button class="btn btn-danger">Saiba mais</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-item-03" role="tabpanel">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <img src="images/bradesco-saude.png" class="img-fluid" alt="Logo Bradesco Saúde">
+                  </div>
+                  <div class="col-sm-6">
+                    <p>
+                      Bradesco Saúde Empresarial: contratação Bradesco Saúde Empresa a partir de 03 vidas*; Plano com
+                      atendimento
+                      em Belo Horizonte: Rede Perfil; Plano Bradesco Saúde com atendimento Nacional: Nacional Flex, TOP
+                      Nacional,
+                      Plus e Premium. Planos com ou sem coparticipação; Análise de redução de carências para empresa
+                      advinda de
+                      outro plano de saúde*. Plano sem carência para empresas com no mínimo 30 vidas;
+                    </p>
+                    <button class="btn btn-danger">Saiba mais</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-item-04" role="tabpanel">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <img src="images/sulamerica-saude.png" class="img-fluid" alt="Logo SulAmérica Saúde">
+                  </div>
+                  <div class="col-sm-6">
+                    <p>
+                      Sul América Saúde PME: contratação Sul América Saúde para empresa com partir de 03 vidas; Planos
+                      com
+                      atendimento Nacional: Análise de redução de carências para clientes advindos de outros planos de
+                      saúde*;
+                      Planos sem carência para empresas com a partir de 10 beneficiários (exceto pré existência)*;
+                    </p>
+                    <button class="btn btn-danger">Saiba mais</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- NEWSLETTER -->
+    <div id="news-area">
+      <div class="container mb-5">
+        <div class="col-md-12">
+          <h2 class="main-title">Fique por dentro das novidades</h2>
+          <hr class="hr-main-title">
+        </div>
+        <p>Assine nossa Newsletter e receba nossos conteúdos sobre Saúde e Bem-Estar</p>
+        <form action="">
+          <input type="email" class="form-control" id="email-input" name="email" placeholder="Seu e-mail">
+          <input type="submit" id="news-btn" value="Inscrever">
+        </form>
+      </div>
+    </div>
+
+
+    <!-- Contato -->
+    <div id="call-area">
+      <div class="container">
+        <div class="row col-12">
+          <p>Faça um orçamento sem compromisso</p>
+          <button class="news-main-btn call-btn">Orçar <i class="fas fa-calculator"></i></button>
+        </div>
+        <div class="row">
+          <p>Se preferir, ligamos pra você!</p>
+          <button class="whatsapp-btn">Whatsapp <i class="fab fa-whatsapp"></i></button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mb-3">
+          <hr class="hr-footer">
+        </div>
+
+        <div class="col-sm-4 address">
+          <h4><i class="fas fa-building"></i> Endereço</h4>
+          <p>Av. Amazonas, 1227, 2º andar, sala 101
+            Centro, Betim / Minas Gerais</p>
+          <p><i class="fas fa-mobile-alt"></i> 0800 595 0600</p>
+        </div>
+
+        <div class="col-sm-4 address">
+          <h4><i class="fas fa-clock"></i> Horário de Funcionamento</h4>
+          <p>Segunda a Quinta: 08:00 às 18:30</p>
+          </p>Sexta-feira: 09:00 às 17:00</p>
+        </div>
+
+        <div class="col-sm-4">
+          <h4><i class="fas fa-comment"></i> Social</h4>
+          <div class="btn-group-vertical btn-block btn-group-lg" role="group">
+            <a href="#" class="btn btn-outline-primary mb-1"><i class="fab fa-facebook-square"></i> Facebook</a>
+            <a href="#" class="btn btn-outline-info mb-1"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="#" class="btn btn-outline-warning mb-1"><i class="fab fa-twitter-square"></i> Twitter</a>
+            <a href="#" class="btn btn-outline-success mb-1"><i class="fab fa-linkedin"></i></i> Linkedin</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 mt-5">
+      <div class="col-12 mb-3">
+        <hr>
+      </div>
+      <blockquote class="blockquote text-center">
+        <p class="mb-6">
+          "Cada sonho que você deixa pra trás, é um pedaço do seu futuro que deixa de existir"
+        </p>
+        <footer class="blockquote-footer">Steve Jobs</footer>
+      </blockquote>
+    </div>
+
+
+    <!-- WHATSAPP FIXED -->
+    <div class="whatsapp-footer">
+      <a href="#"><img src="images/atendimento-whatsapp.png" alt="Atendimento Whatsapp"></a>
+    </div>
+  </footer>
+
+
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+  <!-- Parallax -->
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+  <!-- Progress Bar -->
+  <script src="js/progressbar.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
